@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ea81b0e8d2f24395bc2fcf36746b49f7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ea81b0e8d2f24395bc2fcf36746b49f7" ></div>
+        
+</body>
+<script>    
+    
+            var map_ea81b0e8d2f24395bc2fcf36746b49f7 = L.map(
+                "map_ea81b0e8d2f24395bc2fcf36746b49f7",
+                {
+                    center: [37.609982, 127.014504],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_af195647a65c453aa469b43bc7564a65 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ea81b0e8d2f24395bc2fcf36746b49f7);
+        
+    
+            var marker_1fd44a92b076427e8b40df19cd8f4f6e = L.marker(
+                [37.615188, 127.008842],
+                {}
+            ).addTo(map_ea81b0e8d2f24395bc2fcf36746b49f7);
+        
+    
+            var icon_dfcb025438fe489e976bde1f1136bcd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1fd44a92b076427e8b40df19cd8f4f6e.setIcon(icon_dfcb025438fe489e976bde1f1136bcd6);
+        
+    
+        var popup_67c6272f3b374b8385b36d513466362f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b25c0ddf410841f8a97a7671d8b9a212 = $(`<div id="html_b25c0ddf410841f8a97a7671d8b9a212" style="width: 100.0%; height: 100.0%;">버스정류장start1</div>`)[0];
+            popup_67c6272f3b374b8385b36d513466362f.setContent(html_b25c0ddf410841f8a97a7671d8b9a212);
+        
+
+        marker_1fd44a92b076427e8b40df19cd8f4f6e.bindPopup(popup_67c6272f3b374b8385b36d513466362f)
+        ;
+
+        
+    
+    
+            var marker_d37976bef53e4e08b16931af30eaba25 = L.marker(
+                [37.615795, 127.011119],
+                {}
+            ).addTo(map_ea81b0e8d2f24395bc2fcf36746b49f7);
+        
+    
+            var icon_74e1343651724d558869ac7ef207a7b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d37976bef53e4e08b16931af30eaba25.setIcon(icon_74e1343651724d558869ac7ef207a7b0);
+        
+    
+        var popup_cf63ea574e6c4a12965502478d4f8b7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52cd886e638c4360a8c9434c43537fc7 = $(`<div id="html_52cd886e638c4360a8c9434c43537fc7" style="width: 100.0%; height: 100.0%;">버스정류장1-1</div>`)[0];
+            popup_cf63ea574e6c4a12965502478d4f8b7e.setContent(html_52cd886e638c4360a8c9434c43537fc7);
+        
+
+        marker_d37976bef53e4e08b16931af30eaba25.bindPopup(popup_cf63ea574e6c4a12965502478d4f8b7e)
+        ;
+
+        
+    
+    
+            var marker_1678e54e1caa436e94d1a82e06fa2cfb = L.marker(
+                [37.613635, 127.010313],
+                {}
+            ).addTo(map_ea81b0e8d2f24395bc2fcf36746b49f7);
+        
+    
+            var icon_8b03833d590e4324912446940370b8f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1678e54e1caa436e94d1a82e06fa2cfb.setIcon(icon_8b03833d590e4324912446940370b8f2);
+        
+    
+        var popup_9081fad995bc4d8aa5aded4f5c727122 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8e4df671913421785756712b1608d2f = $(`<div id="html_a8e4df671913421785756712b1608d2f" style="width: 100.0%; height: 100.0%;">버스정류장1-2</div>`)[0];
+            popup_9081fad995bc4d8aa5aded4f5c727122.setContent(html_a8e4df671913421785756712b1608d2f);
+        
+
+        marker_1678e54e1caa436e94d1a82e06fa2cfb.bindPopup(popup_9081fad995bc4d8aa5aded4f5c727122)
+        ;
+
+        
+    
+    
+            var marker_9ae375c8204a4e21b23887f04a89e999 = L.marker(
+                [37.613635, 127.010313],
+                {}
+            ).addTo(map_ea81b0e8d2f24395bc2fcf36746b49f7);
+        
+    
+            var icon_77276c59a5c8432a8fa62daa392464e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ae375c8204a4e21b23887f04a89e999.setIcon(icon_77276c59a5c8432a8fa62daa392464e9);
+        
+    
+        var popup_749dcc160dcf47e4a0ca8f04ee8e26ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_934ef7c4cf8048bf947c9025f98fa289 = $(`<div id="html_934ef7c4cf8048bf947c9025f98fa289" style="width: 100.0%; height: 100.0%;">버스정류장1-3</div>`)[0];
+            popup_749dcc160dcf47e4a0ca8f04ee8e26ab.setContent(html_934ef7c4cf8048bf947c9025f98fa289);
+        
+
+        marker_9ae375c8204a4e21b23887f04a89e999.bindPopup(popup_749dcc160dcf47e4a0ca8f04ee8e26ab)
+        ;
+
+        
+    
+    
+            var marker_9aa3d0c5da1043f39097b43425dd3f61 = L.marker(
+                [37.611044, 127.008703],
+                {}
+            ).addTo(map_ea81b0e8d2f24395bc2fcf36746b49f7);
+        
+    
+            var icon_20256426e8454cc0b8f761aa891dfe74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9aa3d0c5da1043f39097b43425dd3f61.setIcon(icon_20256426e8454cc0b8f761aa891dfe74);
+        
+    
+        var popup_ffec3cf4e7f245d7b00a7508a6ff5f1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eef63a6580c4c6780f954dd85dd3a50 = $(`<div id="html_3eef63a6580c4c6780f954dd85dd3a50" style="width: 100.0%; height: 100.0%;">버스정류장1-4</div>`)[0];
+            popup_ffec3cf4e7f245d7b00a7508a6ff5f1a.setContent(html_3eef63a6580c4c6780f954dd85dd3a50);
+        
+
+        marker_9aa3d0c5da1043f39097b43425dd3f61.bindPopup(popup_ffec3cf4e7f245d7b00a7508a6ff5f1a)
+        ;
+
+        
+    
+    
+            var marker_da11759e0b9745edbc605fab66007aee = L.marker(
+                [37.610155, 127.015023],
+                {}
+            ).addTo(map_ea81b0e8d2f24395bc2fcf36746b49f7);
+        
+    
+            var icon_a956efa8eec04ac893855504b01b858c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da11759e0b9745edbc605fab66007aee.setIcon(icon_a956efa8eec04ac893855504b01b858c);
+        
+    
+        var popup_3539d0597abb4d9ebca76e1c40a8b393 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a236a44b5a7a4b3fb2c1efe08d65797a = $(`<div id="html_a236a44b5a7a4b3fb2c1efe08d65797a" style="width: 100.0%; height: 100.0%;">버스정류장start2</div>`)[0];
+            popup_3539d0597abb4d9ebca76e1c40a8b393.setContent(html_a236a44b5a7a4b3fb2c1efe08d65797a);
+        
+
+        marker_da11759e0b9745edbc605fab66007aee.bindPopup(popup_3539d0597abb4d9ebca76e1c40a8b393)
+        ;
+
+        
+    
+    
+            var marker_e9d3aab797bd4bbca625670d10226fc9 = L.marker(
+                [37.611176, 127.022053],
+                {}
+            ).addTo(map_ea81b0e8d2f24395bc2fcf36746b49f7);
+        
+    
+            var icon_821ed8cc8b064ee9be8366c75faf9b63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9d3aab797bd4bbca625670d10226fc9.setIcon(icon_821ed8cc8b064ee9be8366c75faf9b63);
+        
+    
+        var popup_5680684e6d1b465e81a611f6aa66afe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06b47cb5598d49e79c691ce3bda64cf5 = $(`<div id="html_06b47cb5598d49e79c691ce3bda64cf5" style="width: 100.0%; height: 100.0%;">버스정류장2-1</div>`)[0];
+            popup_5680684e6d1b465e81a611f6aa66afe0.setContent(html_06b47cb5598d49e79c691ce3bda64cf5);
+        
+
+        marker_e9d3aab797bd4bbca625670d10226fc9.bindPopup(popup_5680684e6d1b465e81a611f6aa66afe0)
+        ;
+
+        
+    
+    
+            var marker_ff0aa744f0b544d9824a7e1c2f9e9d74 = L.marker(
+                [37.607853, 127.023306],
+                {}
+            ).addTo(map_ea81b0e8d2f24395bc2fcf36746b49f7);
+        
+    
+            var icon_958b6f10536b49fbb52ef68763fde882 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff0aa744f0b544d9824a7e1c2f9e9d74.setIcon(icon_958b6f10536b49fbb52ef68763fde882);
+        
+    
+        var popup_9d526c18f34f4aef9d8420698e4257ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25760776de924992b1230a2917b13856 = $(`<div id="html_25760776de924992b1230a2917b13856" style="width: 100.0%; height: 100.0%;">버스정류장2-2</div>`)[0];
+            popup_9d526c18f34f4aef9d8420698e4257ee.setContent(html_25760776de924992b1230a2917b13856);
+        
+
+        marker_ff0aa744f0b544d9824a7e1c2f9e9d74.bindPopup(popup_9d526c18f34f4aef9d8420698e4257ee)
+        ;
+
+        
+    
+    
+            var marker_68918975c03c410c932829e61179043b = L.marker(
+                [37.604091, 127.025235],
+                {}
+            ).addTo(map_ea81b0e8d2f24395bc2fcf36746b49f7);
+        
+    
+            var icon_40d2da978f824331be3f4135b6d47b3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_68918975c03c410c932829e61179043b.setIcon(icon_40d2da978f824331be3f4135b6d47b3d);
+        
+    
+        var popup_0c4d89348f7541959e0a88f4d8de740c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20b7b751b0254721b3a9044c7c5de471 = $(`<div id="html_20b7b751b0254721b3a9044c7c5de471" style="width: 100.0%; height: 100.0%;">버스정류장2-3</div>`)[0];
+            popup_0c4d89348f7541959e0a88f4d8de740c.setContent(html_20b7b751b0254721b3a9044c7c5de471);
+        
+
+        marker_68918975c03c410c932829e61179043b.bindPopup(popup_0c4d89348f7541959e0a88f4d8de740c)
+        ;
+
+        
+    
+</script>
