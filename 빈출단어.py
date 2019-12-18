@@ -1,7 +1,6 @@
 import json
 import re
 
-from konlpy.tag import Twitter
 from collections import Counter
 
 import matplotlib.pyplot as plt
