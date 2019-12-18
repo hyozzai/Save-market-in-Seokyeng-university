@@ -14,7 +14,6 @@ import webbrowser
 
 def showGraph(wordInfo):
     
-    font_location = "C:/Users/효짜이/Desktop/크롤링 프로젝트/네이버api 이용 블로그조사/강남 핫_naver_blog.json"
     font_name = font_manager.FontProperties(fname=font_location).get_name()
     matplotlib.rc('font', family=font_name)
 
